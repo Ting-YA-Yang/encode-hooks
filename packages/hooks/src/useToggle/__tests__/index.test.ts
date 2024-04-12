@@ -7,6 +7,7 @@ const callToggle = (hook: any) => {
   });
 };
 
+// jest测试
 describe('useToggle', () => {
   it('test on init', async () => {
     const hook = renderHook(() => useToggle());
